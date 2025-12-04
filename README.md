@@ -27,19 +27,17 @@ The game follows the classic rules:
 To build and run this project, you need the following files (included in the root directory):
 * `p3as-linux`: The Assembler (converts `.as` code to `.exe`).
 * `p3sim.jar`: The Simulator (runs the P3 processor virtually). 
-* Linux Environment (for the assembler).
-* Java Runtime Environment (JRE) installed (for the simulator).
-
 
 1. Setup Permissions:
    
 Before running the assembler for the first time, ensure it has execution permissions:
-
+```bash
 chmod +x p3as-linux
-
+```
 2. Quick Start:
 
 You can assemble and run the simulator immediately using the following command:
-
+```
 ./p3as-linux snake-game.as
 java -jar p3sim.jar snake-game.exe
+```
